@@ -1,0 +1,16 @@
+services:
+  # Species Tutorial Frontend
+  - type: web
+    name: species-tutorial
+    env: static
+    buildCommand: cd species-tutorial && npm install && npm run build
+    staticPublishPath: ./species-tutorial/build
+    pullRequestPreviewsEnabled: true
+    
+  # DropPack Frontend  
+  - type: web
+    name: droppack-canvas
+    env: static
+    buildCommand: cd DropPack && npm install && npm run build
+    staticPublishPath: ./DropPack/build
+    pullRequestPreviewsEnabled: true
