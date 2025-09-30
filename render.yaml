@@ -8,13 +8,3 @@ services:
     pullRequestPreviewsEnabled: true
     rootDir: species-tutorial
     nodeVersion: 18
-    
-  # DropPack Frontend  
-  - type: web
-    name: droppack-canvas
-    env: static
-    buildCommand: npm ci && npm run build
-    staticPublishPath: ./build
-    pullRequestPreviewsEnabled: true
-    rootDir: DropPack
-    nodeVersion: 18

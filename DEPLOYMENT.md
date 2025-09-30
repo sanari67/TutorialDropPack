@@ -1,9 +1,8 @@
 # Deployment Guide for Render
 
-This project contains two React applications that can be deployed on Render:
+This project contains a React application that can be deployed on Render:
 
 1. **species-tutorial** - A species tutorial application
-2. **DropPack** - A drag-and-drop canvas application
 
 ## Prerequisites
 
@@ -18,7 +17,7 @@ This project contains two React applications that can be deployed on Render:
 2. Go to [Render Dashboard](https://dashboard.render.com)
 3. Click "New +" → "Blueprint"
 4. Connect your GitHub repository
-5. Render will automatically detect the `render.yaml` file and deploy both services
+5. Render will automatically detect the `render.yaml` file and deploy the service
 
 ### Option 2: Manual Deployment
 
@@ -30,18 +29,7 @@ This project contains two React applications that can be deployed on Render:
 4. Configure:
    - **Name**: species-tutorial
    - **Root Directory**: species-tutorial
-   - **Build Command**: `npm install && npm run build`
-   - **Publish Directory**: build
-
-#### For DropPack:
-
-1. Go to [Render Dashboard](https://dashboard.render.com)
-2. Click "New +" → "Static Site"
-3. Connect your GitHub repository
-4. Configure:
-   - **Name**: droppack-canvas
-   - **Root Directory**: DropPack
-   - **Build Command**: `npm install && npm run build`
+   - **Build Command**: `npm ci && npm run build`
    - **Publish Directory**: build
 
 ## Environment Variables
@@ -54,9 +42,9 @@ You can add custom domains in the Render dashboard under your service's "Setting
 
 ## Build Configuration
 
-Both applications use:
-- **Node.js version**: Automatically detected (latest LTS)
-- **Build command**: `npm install && npm run build`
+The application uses:
+- **Node.js version**: 18 (specified in render.yaml)
+- **Build command**: `npm ci && npm run build`
 - **Output directory**: `build`
 
 ## Troubleshooting
@@ -75,12 +63,6 @@ cd species-tutorial
 npm install
 npm run build
 npm run serve
-
-# For DropPack
-cd DropPack
-npm install
-npm run build
-npm run serve
 ```
 
-The applications will be available at `http://localhost:3000` and `http://localhost:5000` respectively.
+The application will be available at `http://localhost:3000`.
