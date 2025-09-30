@@ -3,8 +3,7 @@ services:
   - type: web
     name: species-tutorial
     env: static
-    buildCommand: npm ci && npm run build
-    staticPublishPath: ./build
+    buildCommand: cd species-tutorial && npm ci && npm run build
+    staticPublishPath: ./species-tutorial/build
     pullRequestPreviewsEnabled: true
-    rootDir: species-tutorial
     nodeVersion: 18
