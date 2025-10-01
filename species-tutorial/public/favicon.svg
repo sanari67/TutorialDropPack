@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Professional book/document icon for species tutorial -->
-  <rect x="6" y="4" width="20" height="24" rx="2" ry="2" fill="#8b7355"/>
-  <rect x="8" y="6" width="16" height="20" rx="1" ry="1" fill="#faf9f7"/>
-  <path d="M10 10h12M10 14h12M10 18h8" stroke="#8b7355" stroke-width="1.5" stroke-linecap="round"/>
-  <circle cx="20" cy="20" r="2" fill="#d4af37"/>
+  <!-- Plant/Leaf icon for species tutorial -->
+  <path d="M16 2C14 2 12 3 10 5C8 7 6 9 6 12C6 15 8 18 10 20C12 22 14 24 16 26C18 24 20 22 22 20C24 18 26 15 26 12C26 9 24 7 22 5C20 3 18 2 16 2Z" fill="#8B7355"/>
+  <path d="M16 8C16 8 18 10 18 12C18 14 16 16 16 16C16 16 14 14 14 12C14 10 16 8 16 8Z" fill="#A0522D"/>
+  <path d="M16 16L16 26" stroke="#A0522D" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="16" cy="28" r="2" fill="#A0522D"/>
 </svg>

@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #faf9f7 0%, #f5f3f0 50%, #e8e3dd 100%);
+  background: linear-gradient(135deg, #8B7355 0%, #D2B48C 100%);
   min-height: 100vh;
 }
 
@@ -37,14 +37,13 @@ main {
 .hero {
   text-align: center;
   padding: 4rem 0;
-  color: #3c2f2f;
+  color: white;
 }
 
 .hero h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
-  color: #8b7355;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
@@ -76,8 +75,8 @@ main {
 }
 
 .btn-primary {
-  background: #8b7355;
-  color: white;
+  background: white;
+  color: #8B7355;
 }
 
 .btn-primary:hover {
@@ -86,14 +85,14 @@ main {
 }
 
 .btn-secondary {
-  background: transparent;
-  color: #8b7355;
-  border: 2px solid #8b7355;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid white;
 }
 
 .btn-secondary:hover {
-  background: #8b7355;
-  color: white;
+  background: white;
+  color: #8B7355;
 }
 
 /* Section Styles */
@@ -109,13 +108,13 @@ main {
   font-size: 2.5rem;
   margin-bottom: 2rem;
   text-align: center;
-  color: #8b7355;
+  color: #333;
 }
 
 .section h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #6b5b47;
+  color: #8B7355;
 }
 
 .section p {
@@ -133,10 +132,10 @@ main {
 }
 
 .step {
-  background: #faf9f7;
+  background: #f8f9fa;
   padding: 2rem;
   border-radius: 12px;
-  border-left: 4px solid #8b7355;
+  border-left: 4px solid #8B7355;
 }
 
 .step h4 {
@@ -146,7 +145,7 @@ main {
 }
 
 .step-number {
-  background: #8b7355;
+  background: #8B7355;
   color: white;
   width: 30px;
   height: 30px;
