@@ -3,7 +3,6 @@ import './App.css';
 import Hero from './components/Hero';
 import TutorialSection from './components/TutorialSection';
 import CodeExplorer from './components/CodeExplorer';
-import Footer from './components/Footer';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -15,7 +14,6 @@ function App() {
         {activeSection === 'tutorial' && <TutorialSection />}
         {activeSection === 'code' && <CodeExplorer />}
       </main>
-      <Footer />
     </div>
   );
 }
