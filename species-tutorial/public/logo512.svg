@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Plant/Leaf logo for species tutorial -->
+  <defs>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C08552;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#895737;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stemGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5E3023;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5E3023;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#F3E9DC"/>
+  
+  <!-- Main leaf -->
+  <path d="M256 50C240 50 224 65 208 95C192 125 176 155 176 190C176 225 192 260 208 290C224 320 240 335 256 350C272 335 288 320 304 290C320 260 336 225 336 190C336 155 320 125 304 95C288 65 272 50 256 50Z" fill="url(#leafGradient)"/>
+  
+  <!-- Leaf details -->
+  <path d="M256 90C256 90 272 120 272 150C272 180 256 210 256 210C256 210 240 180 240 150C240 120 256 90 256 90Z" fill="#F3E9DC" opacity="0.3"/>
+  
+  <!-- Stem -->
+  <path d="M256 350L256 420" stroke="url(#stemGradient)" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Root circle -->
+  <circle cx="256" cy="450" r="20" fill="#5E3023"/>
+  
+  <!-- Small decorative leaves -->
+  <circle cx="210" cy="90" r="15" fill="#F3E9DC" opacity="0.4"/>
+  <circle cx="302" cy="90" r="15" fill="#F3E9DC" opacity="0.4"/>
+</svg>
