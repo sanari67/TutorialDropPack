@@ -1,7 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Plant/Leaf icon for species tutorial -->
-    <path d="M16 2C14 2 12 3 10 5C8 7 6 9 6 12C6 15 8 18 10 20C12 22 14 24 16 26C18 24 20 22 22 20C24 18 26 15 26 12C26 9 24 7 22 5C20 3 18 2 16 2Z" fill="#C08552"/>
-    <path d="M16 8C16 8 18 10 18 12C18 14 16 16 16 16C16 16 14 14 14 12C14 10 16 8 16 8Z" fill="#895737"/>
-    <path d="M16 16L16 26" stroke="#5E3023" stroke-width="2" stroke-linecap="round"/>
-    <circle cx="16" cy="28" r="2" fill="#5E3023"/>
+  <!-- Custom Species Tutorial Favicon -->
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C08552;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#895737;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#F3E9DC" stroke="#C08552" stroke-width="1"/>
+  
+  <!-- Main DNA helix structure -->
+  <g transform="translate(16,16)">
+    <!-- Left strand -->
+    <path d="M-6,-10 Q-6,-6 -6,-2 Q-6,2 -6,6 Q-6,10" 
+          stroke="url(#mainGradient)" stroke-width="2" fill="none"/>
+    
+    <!-- Right strand -->
+    <path d="M6,-10 Q6,-6 6,-2 Q6,2 6,6 Q6,10" 
+          stroke="url(#mainGradient)" stroke-width="2" fill="none"/>
+    
+    <!-- Connecting bars -->
+    <line x1="-6" y1="-8" x2="6" y2="-8" stroke="#5E3023" stroke-width="1"/>
+    <line x1="-6" y1="-4" x2="6" y2="-4" stroke="#5E3023" stroke-width="1"/>
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="#5E3023" stroke-width="1"/>
+    <line x1="-6" y1="4" x2="6" y2="4" stroke="#5E3023" stroke-width="1"/>
+    <line x1="-6" y1="8" x2="6" y2="8" stroke="#5E3023" stroke-width="1"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="5" cy="5" r="1" fill="#C08552"/>
+  <circle cx="27" cy="5" r="1" fill="#C08552"/>
+  <circle cx="5" cy="27" r="1" fill="#895737"/>
+  <circle cx="27" cy="27" r="1" fill="#895737"/>
 </svg>
