@@ -3,7 +3,7 @@ import React from 'react';
 const TutorialSection: React.FC = () => {
   return (
     <div className="tutorial-section" style={{ 
-      background: 'linear-gradient(135deg, #ff8a50 0%, #da1b60 100%)',
+      background: 'linear-gradient(135deg, #8B4513 0%, #A0522D 100%)',
       minHeight: '100vh',
       padding: '2rem 0'
     }}>

@@ -7,7 +7,7 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
   return (
     <section className="hero" style={{
-      background: 'linear-gradient(135deg, #ff8a50 0%, #da1b60 100%)',
+      background: 'linear-gradient(135deg, #8B4513 0%, #A0522D 100%)',
       minHeight: '100vh',
       display: 'flex',
       alignItems: 'center',
