@@ -3,7 +3,7 @@ import React from 'react';
 const TutorialSection: React.FC = () => {
   return (
     <div className="tutorial-section" style={{ 
-      background: 'linear-gradient(135deg, #8B4513 0%, #A0522D 100%)',
+      background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
       minHeight: '100vh',
       padding: '2rem 0'
     }}>
@@ -16,7 +16,7 @@ const TutorialSection: React.FC = () => {
           backdropFilter: 'blur(10px)'
         }}>
           <h2 style={{ 
-            color: '#8B4513',
+            color: '#5E3023',
             fontSize: '2.5rem',
             textAlign: 'center',
             marginBottom: '1rem',
@@ -25,7 +25,7 @@ const TutorialSection: React.FC = () => {
             🍂 DropPack Tutorial - Stap voor Stap
           </h2>
           <p style={{ 
-            color: '#A0522D',
+            color: '#C08552',
             fontSize: '1.2rem',
             textAlign: 'center',
             marginBottom: '3rem',
@@ -2606,7 +2606,7 @@ npx serve -s build`}
 
           {/* Voltooide applicatie */}
           <div style={{
-            background: 'linear-gradient(135deg, #8B4513 0%, #A0522D 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
