@@ -5,66 +5,63 @@ const Logo: React.FC = () => {
     <div style={{
       display: 'flex',
       alignItems: 'center',
-      justifyContent: 'center',
-      marginBottom: '2rem'
+      gap: '0.75rem',
+      fontSize: '1.5rem',
+      fontWeight: 'bold',
+      color: '#F3E9DC'
     }}>
+      {/* Logo icon */}
       <div style={{
-        width: '120px',
-        height: '120px',
+        width: '40px',
+        height: '40px',
+        background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
         borderRadius: '50%',
-        background: 'linear-gradient(135deg, #F3E9DC 0%, #C08552 100%)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)',
-        border: '4px solid #5E3023'
+        position: 'relative',
+        boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
       }}>
-        {/* Custom Species Tutorial Logo */}
-        <svg 
-          width="80" 
-          height="80" 
-          viewBox="0 0 80 80" 
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" style={{stopColor:'#C08552', stopOpacity:1}} />
-              <stop offset="100%" style={{stopColor:'#895737', stopOpacity:1}} />
-            </linearGradient>
-          </defs>
+        {/* Scientific/Research icon */}
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          {/* Microscope base */}
+          <circle cx="12" cy="18" r="2" fill="#F3E9DC"/>
+          <rect x="10" y="16" width="4" height="2" fill="#F3E9DC"/>
           
-          {/* Main DNA helix structure */}
-          <g transform="translate(40,40)">
-            {/* Left strand */}
-            <path 
-              d="M-20,-25 Q-20,-15 -20,-5 Q-20,5 -20,15 Q-20,25" 
-              stroke="url(#mainGradient)" 
-              strokeWidth="4" 
-              fill="none"
-            />
-            
-            {/* Right strand */}
-            <path 
-              d="M20,-25 Q20,-15 20,-5 Q20,5 20,15 Q20,25" 
-              stroke="url(#mainGradient)" 
-              strokeWidth="4" 
-              fill="none"
-            />
-            
-            {/* Connecting bars */}
-            <line x1="-20" y1="-20" x2="20" y2="-20" stroke="#5E3023" strokeWidth="3"/>
-            <line x1="-20" y1="-10" x2="20" y2="-10" stroke="#5E3023" strokeWidth="3"/>
-            <line x1="-20" y1="0" x2="20" y2="0" stroke="#5E3023" strokeWidth="3"/>
-            <line x1="-20" y1="10" x2="20" y2="10" stroke="#5E3023" strokeWidth="3"/>
-            <line x1="-20" y1="20" x2="20" y2="20" stroke="#5E3023" strokeWidth="3"/>
-          </g>
+          {/* Microscope body */}
+          <rect x="11" y="12" width="2" height="4" fill="#F3E9DC"/>
           
-          {/* Decorative elements */}
-          <circle cx="15" cy="15" r="3" fill="#C08552"/>
-          <circle cx="65" cy="15" r="3" fill="#C08552"/>
-          <circle cx="15" cy="65" r="3" fill="#895737"/>
-          <circle cx="65" cy="65" r="3" fill="#895737"/>
+          {/* Microscope head */}
+          <circle cx="12" cy="10" r="1.5" fill="#5E3023" stroke="#F3E9DC" strokeWidth="1"/>
+          
+          {/* Magnification lines */}
+          <path d="M8 8L10 6M16 8L14 6M8 12L10 14M16 12L14 14" stroke="#F3E9DC" strokeWidth="1" strokeLinecap="round"/>
+          
+          {/* DNA helix */}
+          <path d="M6 4C6 4 8 6 8 8M18 4C18 4 16 6 16 8" stroke="#F3E9DC" strokeWidth="1" fill="none"/>
         </svg>
+      </div>
+      
+      {/* Logo text */}
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        lineHeight: '1.2'
+      }}>
+        <span style={{
+          fontSize: '1.2rem',
+          fontWeight: '700',
+          color: '#F3E9DC'
+        }}>
+          Species
+        </span>
+        <span style={{
+          fontSize: '0.9rem',
+          fontWeight: '500',
+          color: '#C08552'
+        }}>
+          Tutorial
+        </span>
       </div>
     </div>
   );

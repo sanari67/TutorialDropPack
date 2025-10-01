@@ -1042,6 +1042,11 @@ src/
   return (
     <div className="container">
       <section className="section">
+        {/* Logo */}
+        <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+          <Logo />
+        </div>
+        
         <h2>DropPack Code Explorer</h2>
         <p>
           Verken de volledige codebase van het DropPack project. 
