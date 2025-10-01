@@ -9,7 +9,7 @@ const TutorialSection: React.FC = () => {
     }}>
       <section className="tutorial-content" style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 2rem' }}>
         <div className="container" style={{
-          background: 'rgba(255, 255, 255, 0.95)',
+          background: '#F3E9DC',
           borderRadius: '20px',
           padding: '3rem',
           boxShadow: '0 20px 40px rgba(0,0,0,0.1)',

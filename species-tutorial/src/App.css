@@ -98,7 +98,7 @@ main {
 /* Section Styles */
 .section {
   padding: 4rem 0;
-  background: white;
+  background: #F3E9DC;
   margin: 2rem 0;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -108,7 +108,7 @@ main {
   font-size: 2.5rem;
   margin-bottom: 2rem;
   text-align: center;
-  color: #333;
+  color: #5E3023;
 }
 
 .section h3 {
@@ -121,7 +121,7 @@ main {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 1rem;
-  color: #555;
+  color: #5E3023;
 }
 
 /* Tutorial Steps */
@@ -141,7 +141,7 @@ main {
 .step h4 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #5E3023;
 }
 
 .step-number {
@@ -159,15 +159,15 @@ main {
 
 /* Code Explorer */
 .code-explorer {
-  background: #1e1e1e;
-  color: #d4d4d4;
+  background: #5E3023;
+  color: #F3E9DC;
   border-radius: 12px;
   overflow: hidden;
   margin-top: 2rem;
 }
 
 .explorer-header {
-  background: #2d2d30;
+  background: #895737;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -176,7 +176,7 @@ main {
 
 .explorer-title {
   font-weight: bold;
-  color: white;
+  color: #F3E9DC;
 }
 
 .explorer-content {
@@ -186,33 +186,33 @@ main {
 
 .file-tree {
   width: 300px;
-  background: #252526;
-  border-right: 1px solid #3e3e42;
+  background: #895737;
+  border-right: 1px solid #5E3023;
   overflow-y: auto;
 }
 
 .file-tree-item {
   padding: 0.5rem 1rem;
   cursor: pointer;
-  border-bottom: 1px solid #3e3e42;
+  border-bottom: 1px solid #5E3023;
   transition: background 0.2s;
 }
 
 .file-tree-item:hover {
-  background: #2a2d2e;
+  background: #C08552;
 }
 
 .file-tree-item.active {
-  background: #094771;
+  background: #5E3023;
 }
 
 .file-tree-item.folder {
   font-weight: bold;
-  color: #569cd6;
+  color: #F3E9DC;
 }
 
 .file-tree-item.file {
-  color: #d4d4d4;
+  color: #F3E9DC;
   padding-left: 2rem;
 }
 
@@ -227,6 +227,8 @@ main {
   font-size: 0.9rem;
   line-height: 1.4;
   white-space: pre-wrap;
+  background: #5E3023;
+  color: #F3E9DC;
 }
 
 /* Footer - Styled inline in component */

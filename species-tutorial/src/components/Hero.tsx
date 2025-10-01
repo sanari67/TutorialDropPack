@@ -55,8 +55,8 @@ const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
               fontWeight: '600',
               cursor: 'pointer',
               transition: 'all 0.3s',
-              background: 'white',
-              color: '#8B4513',
+              background: '#F3E9DC',
+              color: '#5E3023',
               boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
             }}
           >
@@ -73,7 +73,7 @@ const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
               fontWeight: '600',
               cursor: 'pointer',
               transition: 'all 0.3s',
-              background: 'rgba(255, 255, 255, 0.2)',
+              background: 'rgba(243, 233, 220, 0.2)',
               color: 'white',
               boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
             }}
