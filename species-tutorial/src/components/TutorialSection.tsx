@@ -36,14 +36,14 @@ const TutorialSection: React.FC = () => {
           
           {/* Stap 1: Project Setup */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -67,7 +67,7 @@ const TutorialSection: React.FC = () => {
                 Stap 1.1: Maak een nieuw React project
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -88,7 +88,7 @@ cd droppack-canvas`}
                 Stap 1.2: Installeer dependencies
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -107,14 +107,14 @@ npm install --save-dev @types/react-dnd`}
 
           {/* Stap 2: Package.json */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -138,7 +138,7 @@ npm install --save-dev @types/react-dnd`}
                 Stap 2.1: Vervang package.json
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -182,14 +182,14 @@ npm install --save-dev @types/react-dnd`}
 
           {/* Stap 3: TypeScript Types */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -213,7 +213,7 @@ npm install --save-dev @types/react-dnd`}
                 Stap 3.1: Maak de types folder
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -233,7 +233,7 @@ npm install --save-dev @types/react-dnd`}
                 Stap 3.2: Maak Item.ts
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -256,14 +256,14 @@ export interface Item {
 
           {/* Stap 4: App.tsx - Deel 1 */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -287,7 +287,7 @@ export interface Item {
                 Stap 4.1: Imports toevoegen
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -310,7 +310,7 @@ import { Item } from './types/Item';`}
                 Stap 4.2: State definiëren
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -333,14 +333,14 @@ import { Item } from './types/Item';`}
 
           {/* Stap 5: App.tsx - Deel 2 */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -364,7 +364,7 @@ import { Item } from './types/Item';`}
                 Stap 5.1: useDrop hook
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -391,14 +391,14 @@ const [{ isOver }, drop] = useDrop({
 
           {/* Stap 6: App.tsx - Deel 3 */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -422,7 +422,7 @@ const [{ isOver }, drop] = useDrop({
                 Stap 6.1: Basis JSX structuur
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -442,7 +442,7 @@ const [{ isOver }, drop] = useDrop({
         border: '2px dashed #ccc',
         borderRadius: '8px',
         padding: '20px',
-        background: isOver ? '#f0f8ff' : '#fafafa',
+        background: isOver ? '#F3E9DC' : '#F3E9DC',
         marginTop: '20px'
       }}
     >`}
@@ -457,7 +457,7 @@ const [{ isOver }, drop] = useDrop({
                 Stap 6.2: Canvas content
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -471,7 +471,7 @@ const [{ isOver }, drop] = useDrop({
       ) : (
         canvasItems.map((item) => (
           <div key={item.id} style={{ 
-            background: '#667eea', 
+            background: '#C08552', 
             color: 'white', 
             padding: '10px', 
             margin: '5px',
@@ -494,14 +494,14 @@ const [{ isOver }, drop] = useDrop({
 
           {/* Stap 7: Index.tsx */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -525,7 +525,7 @@ const [{ isOver }, drop] = useDrop({
                 Stap 7.1: Vervang index.tsx
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -561,14 +561,14 @@ root.render(
 
           {/* Stap 8: DraggableItem Component */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -592,7 +592,7 @@ root.render(
                 Stap 8.1: Maak components folder
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -612,7 +612,7 @@ root.render(
                 Stap 8.2: DraggableItem.tsx - Imports
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -639,7 +639,7 @@ interface DraggableItemProps {
                 Stap 8.3: useDrag hook
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -666,7 +666,7 @@ interface DraggableItemProps {
                 Stap 8.4: JSX Return
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -678,7 +678,7 @@ interface DraggableItemProps {
     <div
       ref={drag}
       style={{
-        background: '#f8f9fa',
+        background: '#F3E9DC',
         border: '2px solid #e1e5e9',
         borderRadius: '8px',
         padding: '1rem',
@@ -704,14 +704,14 @@ export default DraggableItem;`}
 
           {/* Stap 9: Test */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -735,7 +735,7 @@ export default DraggableItem;`}
                 Stap 9.1: Start de server
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -764,14 +764,14 @@ export default DraggableItem;`}
 
           {/* Stap 10: Items Toevoegen Functionaliteit */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -795,7 +795,7 @@ export default DraggableItem;`}
                 Stap 10.1: addItem functie
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -823,7 +823,7 @@ const addItem = (name: string, price: number) => {
                 Stap 10.2: Form state
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -856,14 +856,14 @@ const handleSubmit = (e: React.FormEvent) => {
 
           {/* Stap 11: Form UI */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -887,7 +887,7 @@ const handleSubmit = (e: React.FormEvent) => {
                 Stap 11.1: Form JSX
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -921,7 +921,7 @@ const handleSubmit = (e: React.FormEvent) => {
       style={{ marginLeft: '10px', padding: '5px' }}
     />
   </div>
-  <button type="submit" style={{ padding: '10px 20px', background: '#667eea', color: 'white', border: 'none', borderRadius: '5px' }}>
+  <button type="submit" style={{ padding: '10px 20px', background: '#C08552', color: '#F3E9DC', border: 'none', borderRadius: '5px' }}>
     Item Toevoegen
   </button>
 </form>`}
@@ -934,14 +934,14 @@ const handleSubmit = (e: React.FormEvent) => {
 
           {/* Stap 12: DraggableItem Import */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -965,7 +965,7 @@ const handleSubmit = (e: React.FormEvent) => {
                 Stap 12.1: Import toevoegen
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -986,7 +986,7 @@ import DraggableItem from './components/DraggableItem';`}
                 Stap 12.2: Beschikbare items tonen
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1014,14 +1014,14 @@ import DraggableItem from './components/DraggableItem';`}
 
           {/* Stap 13: Items Verwijderen */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -1045,7 +1045,7 @@ import DraggableItem from './components/DraggableItem';`}
                 Stap 13.1: removeFromCanvas functie
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1068,7 +1068,7 @@ const removeFromCanvas = (id: number) => {
                 Stap 13.2: Canvas items met remove button
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1093,7 +1093,7 @@ const removeFromCanvas = (id: number) => {
         position: 'absolute',
         top: '-5px',
         right: '-5px',
-        background: '#ff4757',
+        background: '#C08552',
         color: 'white',
         border: 'none',
         borderRadius: '50%',
@@ -1116,14 +1116,14 @@ const removeFromCanvas = (id: number) => {
 
           {/* Stap 14: Prijsberekening */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -1147,7 +1147,7 @@ const removeFromCanvas = (id: number) => {
                 Stap 14.1: calculateTotal functie
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1170,7 +1170,7 @@ const calculateTotal = () => {
                 Stap 14.2: Totaal weergave
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1183,7 +1183,7 @@ const calculateTotal = () => {
   <div style={{ 
     margin: '20px', 
     padding: '20px', 
-    background: '#28a745', 
+    background: '#C08552', 
     color: 'white',
     borderRadius: '5px',
     textAlign: 'center'
@@ -1200,14 +1200,14 @@ const calculateTotal = () => {
 
           {/* Stap 15: PDF Export */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -1231,7 +1231,7 @@ const calculateTotal = () => {
                 Stap 15.1: Maak utils folder
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1251,7 +1251,7 @@ const calculateTotal = () => {
                 Stap 15.2: Maak pdfExport.ts
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1308,7 +1308,7 @@ export const exportToPDF = (items: Item[], total: number) => {
                 Stap 15.3: PDF export in App.tsx
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1330,7 +1330,7 @@ const handleExportToPDF = () => {
   disabled={canvasItems.length === 0}
   style={{
     padding: '10px 20px',
-    background: '#28a745',
+    background: '#C08552',
     color: 'white',
     border: 'none',
     borderRadius: '5px',
@@ -1349,14 +1349,14 @@ const handleExportToPDF = () => {
 
           {/* Stap 16: Navbar Component */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -1380,7 +1380,7 @@ const handleExportToPDF = () => {
                 Stap 16.1: Maak Navbar.tsx
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1394,7 +1394,7 @@ import React from 'react';
 const Navbar: React.FC = () => {
   return (
     <nav style={{
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
       color: 'white',
       padding: '1rem 2rem',
       boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
@@ -1414,14 +1414,14 @@ export default Navbar;`}
 
           {/* Stap 17: LeftPanel Component */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -1445,7 +1445,7 @@ export default Navbar;`}
                 Stap 17.1: Maak LeftPanel.tsx - Imports
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1477,7 +1477,7 @@ const LeftPanel: React.FC<LeftPanelProps> = ({ availableItems, onAddItem }) => {
                 Stap 17.2: Form handler
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1505,14 +1505,14 @@ const LeftPanel: React.FC<LeftPanelProps> = ({ availableItems, onAddItem }) => {
 
           {/* Stap 18: LeftPanel JSX */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -1536,7 +1536,7 @@ const LeftPanel: React.FC<LeftPanelProps> = ({ availableItems, onAddItem }) => {
                 Stap 18.1: Return statement
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1601,7 +1601,7 @@ const LeftPanel: React.FC<LeftPanelProps> = ({ availableItems, onAddItem }) => {
           style={{
             width: '100%',
             padding: '0.75rem',
-            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             color: 'white',
             border: 'none',
             borderRadius: '4px',
@@ -1640,14 +1640,14 @@ export default LeftPanel;`}
 
           {/* Stap 19: RightPanel Component */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -1671,7 +1671,7 @@ export default LeftPanel;`}
                 Stap 19.1: Maak RightPanel.tsx - Imports
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1703,7 +1703,7 @@ const RightPanel: React.FC<RightPanelProps> = ({ canvasItems, onRemoveFromCanvas
                 Stap 19.2: Drop functionaliteit
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1738,14 +1738,14 @@ const RightPanel: React.FC<RightPanelProps> = ({ canvasItems, onRemoveFromCanvas
 
           {/* Stap 20: RightPanel JSX */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -1769,7 +1769,7 @@ const RightPanel: React.FC<RightPanelProps> = ({ canvasItems, onRemoveFromCanvas
                 Stap 20.1: Return statement
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1796,7 +1796,7 @@ const RightPanel: React.FC<RightPanelProps> = ({ canvasItems, onRemoveFromCanvas
           border: isOver ? '3px dashed #28a745' : '3px dashed #ccc',
           borderRadius: '8px',
           padding: '1rem',
-          background: isOver ? '#f8fff8' : '#fff',
+          background: isOver ? '#F3E9DC' : '#F3E9DC',
           transition: 'all 0.3s ease'
         }}
       >
@@ -1826,7 +1826,7 @@ const RightPanel: React.FC<RightPanelProps> = ({ canvasItems, onRemoveFromCanvas
         <div style={{ 
           marginTop: '1rem', 
           padding: '1rem', 
-          background: '#28a745', 
+          background: '#C08552', 
           color: 'white',
           borderRadius: '8px',
           textAlign: 'center'
@@ -1865,14 +1865,14 @@ export default RightPanel;`}
 
           {/* Stap 21: CanvasItem Component */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -1896,7 +1896,7 @@ export default RightPanel;`}
                 Stap 21.1: Maak CanvasItem.tsx
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -1917,7 +1917,7 @@ interface CanvasItemProps {
 const CanvasItem: React.FC<CanvasItemProps> = ({ item, onRemove }) => {
   return (
     <div style={{
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
       color: 'white',
       padding: '1rem',
       borderRadius: '8px',
@@ -1932,7 +1932,7 @@ const CanvasItem: React.FC<CanvasItemProps> = ({ item, onRemove }) => {
           position: 'absolute',
           top: '-8px',
           right: '-8px',
-          background: '#ff4757',
+          background: '#C08552',
           color: 'white',
           border: 'none',
           borderRadius: '50%',
@@ -1969,14 +1969,14 @@ export default CanvasItem;`}
 
           {/* Stap 22: Footer Component */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -2000,7 +2000,7 @@ export default CanvasItem;`}
                 Stap 22.1: Maak Footer.tsx
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -2014,7 +2014,7 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer style={{
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
       color: 'white',
       textAlign: 'center',
       padding: '2rem',
@@ -2037,14 +2037,14 @@ export default Footer;`}
 
           {/* Stap 23: App.tsx Updaten */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -2068,7 +2068,7 @@ export default Footer;`}
                 Stap 23.1: Nieuwe imports
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -2097,7 +2097,7 @@ import './index.css';`}
                 Stap 23.2: Nieuwe App component
               </h5>
               <pre style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -2136,7 +2136,7 @@ import './index.css';`}
           flex: 1, 
           gap: '1rem',
           padding: '1rem',
-          background: '#f5f5f5'
+          background: '#F3E9DC'
         }}>
           <LeftPanel 
             availableItems={availableItems} 
@@ -2163,14 +2163,14 @@ export default App;`}
 
           {/* Stap 24: CSS Styling */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -2194,7 +2194,7 @@ export default App;`}
                 Stap 24.1: Maak index.css
               </h5>
               <div style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -2215,7 +2215,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #C08552 0%, #895737 100%);
   min-height: 100vh;
 }
 
@@ -2280,14 +2280,14 @@ button:active {
 
           {/* Stap 25: Public/index.html */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -2311,7 +2311,7 @@ button:active {
                 Stap 25.1: Update public/index.html
               </h5>
               <div style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -2345,14 +2345,14 @@ button:active {
 
           {/* Stap 26: tsconfig.json */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -2376,7 +2376,7 @@ button:active {
                 Stap 26.1: Maak tsconfig.json
               </h5>
               <div style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -2419,14 +2419,14 @@ button:active {
 
           {/* Stap 27: README.md */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -2450,7 +2450,7 @@ button:active {
                 Stap 27.1: Maak README.md
               </h5>
               <div style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
@@ -2537,14 +2537,14 @@ Dit project is gemaakt voor educatieve doeleinden.`}
 
           {/* Stap 28: Finale Test */}
           <div className="step" style={{
-            background: 'linear-gradient(135deg, #ff8a50 0%, #d2691e 100%)',
+            background: 'linear-gradient(135deg, #C08552 0%, #895737 100%)',
             borderRadius: '15px',
             padding: '2rem',
             marginBottom: '2rem',
             boxShadow: '0 10px 20px rgba(0,0,0,0.1)'
           }}>
             <div className="step-number" style={{
-              background: '#8B4513',
+              background: '#5E3023',
               color: 'white',
               width: '50px',
               height: '50px',
@@ -2584,7 +2584,7 @@ Dit project is gemaakt voor educatieve doeleinden.`}
                 Stap 28.2: Terminal commands
               </h5>
               <div style={{ 
-                background: '#2C1810',
+                background: '#5E3023',
                 color: '#FFD700',
                 padding: '1.5rem',
                 borderRadius: '10px',
