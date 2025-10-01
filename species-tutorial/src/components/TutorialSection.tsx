@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from './Logo';
 
 const TutorialSection: React.FC = () => {
   return (
@@ -16,11 +15,6 @@ const TutorialSection: React.FC = () => {
           boxShadow: '0 20px 40px rgba(0,0,0,0.1)',
           backdropFilter: 'blur(10px)'
         }}>
-          {/* Logo */}
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
-            <Logo />
-          </div>
-          
           <h2 style={{ 
             color: '#5E3023',
             fontSize: '2.5rem',

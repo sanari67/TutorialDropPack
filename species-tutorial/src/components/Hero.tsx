@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from './Logo';
 
 interface HeroProps {
   setActiveSection: (section: string) => void;
@@ -19,11 +18,6 @@ const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
         color: 'white',
         padding: '2rem'
       }}>
-        {/* Logo */}
-        <div style={{ marginBottom: '2rem' }}>
-          <Logo />
-        </div>
-        
         <h1 style={{
           fontSize: '3.5rem',
           marginBottom: '1rem',
